@@ -8,9 +8,8 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'war'
+    id 'org.gretty'
 }
-
-apply from: 'https://raw.github.com/gretty-gradle-plugin/gretty/master/pluginScripts/gretty.plugin'
 
 repositories {
     // Use Maven Central for resolving dependencies.
